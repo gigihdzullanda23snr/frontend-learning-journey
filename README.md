@@ -4,11 +4,11 @@ A public record of my journey learning HTML, CSS, and frontend development.
 
 This repository contains my daily progress as I learn how to build websites and user interfaces from scratch.
 
-Every folder represents a new step in my learning path — from basic HTML to real UI components.
+Every folder represents a new step in my learning path - from basic HTML to real UI components.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Each folder contains:
 - `index.html`
@@ -26,7 +26,7 @@ Example :
 
 ---
 
-## 🚀 Goal
+## Goal
 
 My goal is to become a **Frontend Developer** by building real projects and practicing every day.
 
@@ -37,7 +37,7 @@ This repository shows:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML  
 - CSS  
@@ -45,16 +45,17 @@ This repository shows:
 
 ---
 
-## 📸 Preview
+## Preview
 
 Screenshots of my projects will be added in each folder.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Gigih Dzullanda**  
+<strong>Gigih Dzullanda</strong>
 
-Frontend Developer in progress 🚀
+Frontend Developer in progress
+
 
 
