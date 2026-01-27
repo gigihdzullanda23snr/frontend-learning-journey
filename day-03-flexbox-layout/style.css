@@ -6,15 +6,15 @@ body
 
 .navbar
 {
-  display: flex;                          <!--Ini yang buat Logo & menunya sejajar-->
-  justify-content: space-between;               <!--Logo kiri, menu kanan-->
-  align-items: center;                         <!--Sejajar tengah, dari atas / bawah (vertikal-->
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #222;
   color: white;
   padding: 15px 30px;
 }
 
-.menu a
+.menu a 
 {
   color: white;
   text-decoration: none;
@@ -38,4 +38,3 @@ body
   border-radius: 10px;
   font-weight: bold;
 }
-
