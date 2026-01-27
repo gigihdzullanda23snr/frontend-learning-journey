@@ -17,8 +17,10 @@ Each folder contains:
 - A small project or UI component
 
 Example : 
-/day-01-basic&css
-/day-02-profile-card
+/day-01-basic&css <img width="1366" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" />
+
+/day-02-profile-card<img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" />
+
 
 
 ---
@@ -51,4 +53,5 @@ Screenshots of my projects will be added in each folder.
 ## 👨‍💻 Author
 
 **Gigih Dzullanda**  
+
 Frontend Developer in progress 🚀
