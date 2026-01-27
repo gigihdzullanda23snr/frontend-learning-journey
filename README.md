@@ -16,12 +16,13 @@ Each folder contains:
 - Other assets (images, etc)
 - A small project or UI component
 
-Example : 
-/day-01-basic&css <img width="720" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" />
+Example :
+<p>day-01-<strong>BASIC&CSS</strong></p>
+<p><img width="1366" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" /></p>
 
-/day-02-profile-card<img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" />
-
-
+<p>day-02-<strong>profile-card</strong>
+  <p><img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" /></p>
+  
 
 ---
 
@@ -55,4 +56,5 @@ Screenshots of my projects will be added in each folder.
 **Gigih Dzullanda**  
 
 Frontend Developer in progress 🚀
+
 
