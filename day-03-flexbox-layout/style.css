@@ -6,9 +6,9 @@ body
 
 .navbar
 {
-  display: flex;                          <!-- Ini yang buat Logo & menunya sejajar -->
-  justify-content: space-between;               <!-- Logo kiri, menu kanan>
-  align-items: center;                         <!-- Sejajar tengah, dari atas / bawah (vertikal -->
+  display: flex;                          <!--Ini yang buat Logo & menunya sejajar-->
+  justify-content: space-between;               <!--Logo kiri, menu kanan-->
+  align-items: center;                         <!--Sejajar tengah, dari atas / bawah (vertikal-->
   background: #222;
   color: white;
   padding: 15px 30px;
