@@ -20,8 +20,11 @@ Example :
 <p>day-01-<strong>BASIC&CSS</strong></p>
 <p><img width="1366" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" /></p>
 
-<p>day-02-<strong>profile-card</strong>
+<p>day-02-<strong>PROFILE-CARD</strong></p>
   <p><img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" /></p>
+  <p>day-03-<strong>FLEXBOX-LAYOUT</strong></p>
+  <p><img width="1366" height="720" alt="Flexbox-layout" src="https://github.com/user-attachments/assets/d38753ab-480c-47bb-9574-703ea9f3cc8d" />
+</p>
   
 
 ---
@@ -56,6 +59,7 @@ Screenshots of my projects will be added in each folder.
 <strong>Gigih Dzullanda</strong>
 
 Frontend Developer in progress
+
 
 
 
