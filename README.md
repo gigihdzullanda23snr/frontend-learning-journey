@@ -22,9 +22,12 @@ Example :
 
 <p>day-02-<strong>PROFILE-CARD</strong></p>
   <p><img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" /></p>
+  
   <p>day-03-<strong>FLEXBOX-LAYOUT</strong></p>
-  <p><img width="1366" height="720" alt="Flexbox-layout" src="https://github.com/user-attachments/assets/d38753ab-480c-47bb-9574-703ea9f3cc8d" />
-</p>
+  <p><img width="1366" height="720" alt="Flexbox-layout" src="https://github.com/user-attachments/assets/d38753ab-480c-47bb-9574-703ea9f3cc8d" /></p>
+
+  <p>day-04-<strong>GRID-LAYOUT</strong></p>
+  <p><img width="1366" height="720" alt="Grid-Layout" src="https://github.com/user-attachments/assets/8953b7ad-efd8-4f87-a885-c39468d97d97" /></p>
   
 
 ---
@@ -59,6 +62,7 @@ Screenshots of my projects will be added in each folder.
 <strong>Gigih Dzullanda</strong>
 
 Frontend Developer in progress
+
 
 
 
