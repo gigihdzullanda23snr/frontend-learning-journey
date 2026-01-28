@@ -1,0 +1,24 @@
+body
+{font-family: arial;padding: 20px;
+}
+
+.grid
+ {
+  display: grid;                  /* aktifkan grid-3kolom-jarak otomatis */ 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+}
+
+.card
+{
+background: #f4f4f4;
+padding: 40px;
+text-align: center;
+border-radius: 10px;
+font-weight: bold;
+}
+@media(max-width:600px)         /* aktifkan pengatur otomatis ketika layar kecil*/
+{
+  .grid
+  {grid-template-columns: 1fr;}
+}
