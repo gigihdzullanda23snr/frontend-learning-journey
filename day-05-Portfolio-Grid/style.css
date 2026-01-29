@@ -34,7 +34,7 @@ transition: 0,2s;
 @media(max-width :900px)
 {
     .grid
-    {grid-template-columns:repeat(2,1fr);      /* Ukuran Tablat */
+    {grid-template-columns:repeat(2,1fr);      /* Ukuran Tablet */
         }
     }
 @media(max-width:600px)                        /* Ukuran HP */
