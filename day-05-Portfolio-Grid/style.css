@@ -31,4 +31,15 @@ transition: 0,2s;
     button:hover
 {background: #444;
 }
-@media(max-width :600px)
+@media(max-width :900px)
+{
+    .grid
+    {grid-template-columns:repeat(2,1fr);      /* Ukuran Tablat */
+        }
+    }
+@media(max-width:600px)                        /* Ukuran HP */
+{
+    .grid
+    {grid-template-columns: 1fr;
+    }
+}
