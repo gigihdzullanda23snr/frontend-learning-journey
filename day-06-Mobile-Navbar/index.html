@@ -9,8 +9,9 @@
       const hamburger=document.getElementById("hamburger");
       const menu=documen.getElementById("menu");
 
-      hamburger.addEventListener("click",(),=>
-    {menu,clasList.toggle("show");});
+      hamburger.addEventListener("click",() =>
+    {menu.classList.toggle("show");
+    });
   </script>
 
   <div class="navbar">
@@ -21,7 +22,6 @@
       <a href="#">Contact</a>
       <a href="#">Social Media</a>
     </div>
-  </div>
 
   <div class="container">
     <div class="card">Project 1</div>
@@ -30,5 +30,7 @@
   </div>
 
   <div class="hamburger" id="hamburger"></div>
+  
+  </div>
 </body>
 </html>
