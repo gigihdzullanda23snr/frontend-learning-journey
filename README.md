@@ -17,10 +17,10 @@ Each folder contains:
 - A small project or UI component
 
 Example :
-<p>day-01-<strong>BASIC&CSS</strong></p>
-<p><img width="1366" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" /></p>
+  <p>day-01-<strong>BASIC&CSS</strong></p>
+  <p><img width="1366" height="720" alt="BASIC-HTML CSS" src="https://github.com/user-attachments/assets/0a37d1a8-d833-42ae-b3e8-4e5ab9db039b" /></p>
 
-<p>day-02-<strong>PROFILE-CARD</strong></p>
+  <p>day-02-<strong>PROFILE-CARD</strong></p>
   <p><img width="1366" height="720" alt="Profil-Card" src="https://github.com/user-attachments/assets/d681b59c-bb14-46cd-add4-5188aa113056" /></p>
   
   <p>day-03-<strong>FLEXBOX-LAYOUT</strong></p>
@@ -29,6 +29,9 @@ Example :
   <p>day-04-<strong>GRID-LAYOUT</strong></p>
   <p><img width="1366" height="720" alt="Grid-Layout" src="https://github.com/user-attachments/assets/8953b7ad-efd8-4f87-a885-c39468d97d97" /></p>
   
+  <p>day-05-<strong>Portolio-Layout</strong></p>
+  <p><img width="1366" height="720" alt="Portfolio-Grid" src="https://github.com/user-attachments/assets/a4ba3f89-5430-4e8a-ae0a-a633032e1e40" /></p>
+
 
 ---
 
@@ -62,6 +65,7 @@ Screenshots of my projects will be added in each folder.
 <strong>Gigih Dzullanda</strong>
 
 Frontend Developer in progress
+
 
 
 
