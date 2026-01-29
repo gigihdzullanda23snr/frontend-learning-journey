@@ -8,31 +8,33 @@
   
   <div class="navbar">
     <h2>MySite</h2>
-    <div class="menu">
+    
+    <div class="menu" id="menu">
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
       <a href="#">Social Media</a>
     </div>
-
+    <div class="hamburger" id="hamburger">&#9776;</div> <!-- &#9776; adalah code symbol ☰-->
+</div>
+  
   <div class="container">
     <div class="card">Project 1</div>
     <div class="card">Project 2</div>
     <div class="card">Project 3</div>
+    <div class="card">Project 4</div>
+    <div class="card">Project 5</div>
+    <div class="card">Project 6</div>
   </div>
-
-  <div class="hamburger" id="hamburger">&#9776;</div> <!-- &#9776; adalah code symbol ☰-->
-
+  
     <script>
       const hamburger=document.getElementById("hamburger");
-      const menu=documen.getElementById("menu");
+      const menu=document.getElementById("menu");
 
       hamburger.addEventListener("click",() =>
     {menu.classList.toggle("show");
     });
   </script>
 
-  
-  </div>
 </body>
 </html>
