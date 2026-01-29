@@ -32,6 +32,9 @@ Example :
   <p>day-05-<strong>Portolio-Layout</strong></p>
   <p><img width="1366" height="720" alt="Portfolio-Grid" src="https://github.com/user-attachments/assets/a4ba3f89-5430-4e8a-ae0a-a633032e1e40" /></p>
 
+  <P>day-06-<strong>Mobile-Navbar</strong></P>
+  <p><img width="651" height="531" alt="Mobile-Navbar" src="https://github.com/user-attachments/assets/12fa4627-0edc-4424-9fd0-833efef6af77" /></p>
+
 
 ---
 
@@ -65,6 +68,7 @@ Screenshots of my projects will be added in each folder.
 <strong>Gigih Dzullanda</strong>
 
 Frontend Developer in progress
+
 
 
 
