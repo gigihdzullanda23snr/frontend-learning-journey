@@ -1,0 +1,34 @@
+    body
+{font-family: arial;padding: 20px;
+}
+
+    .grid
+{display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+}
+
+    .card
+{background:#a89999;
+padding: 30px;
+border-radius: 10px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+min-height: 200px;
+}
+    button
+{padding: 10px 25px;
+border: none;
+border-radius: 6px;
+background: #222;
+color: white;
+cursor: pointer;
+transition: 0,2s;
+}
+    button:hover
+{background: #444;
+}
+@media(max-width :600px)
