@@ -108,5 +108,5 @@ body {
 }
   .footer{
     tex-align:center;
-    justify-conten:center;
+    justify-conten:space-between;
 }
