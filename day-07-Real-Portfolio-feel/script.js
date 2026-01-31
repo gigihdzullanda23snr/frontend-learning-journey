@@ -1,7 +1,10 @@
+//sticky navbar shadow
 window.addEventListener("scroll",()=>{
     document.querySelector(".navbar")
       .classList.toggle("scrolled",window.scrollY > 10);
 });
+
+//MObile menu
 const hamburger = document.getElementById("hamburger");
 const menu = document.getElementById("menu");
 
