@@ -1,1 +1,12 @@
 
+.hero{
+  height:60vh;
+  background:linear-gradien(135deg,#111,#333);
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:40px;
+}
