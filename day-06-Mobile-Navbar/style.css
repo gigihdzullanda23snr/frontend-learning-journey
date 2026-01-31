@@ -11,6 +11,7 @@ body {
   background: #222;
   color: white;
   padding: 15px 30px;
+  position: relative;
 }
 
 .menu {
@@ -25,30 +26,33 @@ body {
   padding: 6px 10px;
 }
 
+/* HAMBURGER */
 .hamburger {
   width: 30px;
-  height:22px;
+  height: 22px;
   display: none;
-  flex-direction:column;
-  justify-content:space-between;
-  font-size: 28px;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
 }
-.hamburger span{
- height:4px;
-  width:100%;
-  background:white;
-  border-radius:5px;
-  transition:0.3s;
+
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  transition: 0.3s;
 }
-.hamburger.active span:nth-child(1){
-  transform:rotate(45deg) translate(5px, 5px);
+
+/* X animation */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
 }
-.hamburger.active span:nth-child(2){
-  opacity:0;
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
 }
-.hamburger.active span:nth-child(3){
-  transform:rotate(-45deg) translate(5px, -5px);
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* GRID */
@@ -56,57 +60,54 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  paddig:20px;
+  padding: 20px;
 }
 
 .card {
-  min-height:160px;
-  display:flex;
   background: #f4f4f4;
-  padding: 40px;
-  text-align: center;
   border-radius: 10px;
-  font-weight: bold;
-  justify-content:center;
-  align-items:center;
+  padding: 30px;
+  text-align: center;
 }
 
-/* Tampilan untuk TABLET */
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+
+/* TABLET */
 @media (max-width: 900px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* HP */
+/* MOBILE */
 @media (max-width: 600px) {
+
   .container {
     grid-template-columns: 1fr;
-}
-  .navbar {
-    position:relative;
   }
 
   .menu {
-    position:fixed;
-    top:0;
-    right:-220px;        /* Sembunyiin diluar layar */
-    height:100vh;
-    display: none;
-    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -220px;
+    width: 200px;
+    height: 100vh;
     background: #222;
+    flex-direction: column;
     padding: 80px 20px;
-    transition:0.4s;
-}
+    transition: 0.4s;
+  }
 
   .menu.show {
-    right:0;            /* slide masuk */
+    right: 0;
   }
 
   .hamburger {
     display: flex;
-}
-  .footer{
-    tex-align:center;
-    justify-conten:space-between;
+  }
 }
