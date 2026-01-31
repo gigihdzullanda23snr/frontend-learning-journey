@@ -94,17 +94,18 @@ footer {
   .menu {
     position: fixed;
     top: 0;
-    right: -220px;
+    right: -220px;              /* Menu disembunyikan diluar Layar */
     width: 200px;
     height: 100vh;
     background: #222;
     flex-direction: column;
     padding: 80px 20px;
     transition: 0.4s;
+    display:flex;                /* untuk animasi wajib flex jangan none */
   }
 
   .menu.show {
-    right: 0;
+    right: 0;                    /* Disini Slide menu masuk */
   }
 
   .hamburger {
