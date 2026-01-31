@@ -11,8 +11,13 @@ body {
   background: #222;
   color: white;
   padding: 15px 30px;
-  position: relative;
+  position: sticky;
+  top:0;
+  z-index:10;
+  transition:0.3s;
 }
+.navbar.scrolled{
+  box-shadow:0 5px 15px rgba (0,0,0,0.4);
 
 .menu {
   display: flex;
@@ -68,6 +73,11 @@ body {
   border-radius: 10px;
   padding: 30px;
   text-align: center;
+  transition:0.3s;
+}
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 /* FOOTER */
