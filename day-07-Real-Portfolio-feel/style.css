@@ -7,6 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   background: #f9f9f9;
+  padding-top:70px;
 }
 
 /* NAVBAR */
@@ -78,7 +79,7 @@ body {
 
 /* HERO */
 .hero {
-  min-height: 60vh;
+  min-height: 70vh;
   background: linear-gradient(135deg,#111,#333);
   color: white;
   display: flex;
@@ -86,7 +87,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 40px;
+  padding: 120px;              /* memberi jarak dari navar*/
 }
 
 .hero p {
@@ -149,6 +150,11 @@ body {
   color: white;
   text-align: center;
   padding: 80px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 /* FOOTER */
@@ -191,4 +197,6 @@ footer {
   .hamburger {
     display: flex;
   }
+  html{
+    scroll-behavior:smooth;
 }
