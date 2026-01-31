@@ -30,13 +30,21 @@ body {
   display: flex;
   gap: 10px;
 }
+.menu a:active{
+  transform:scale(0.95);
+}
 
 .menu a {
   color: white;
   text-decoration: none;
-  background: red;
+  background: #ff3b3b;
   padding: 6px 10px;
   border-radius:5px;
+  transition:0.3s;
+}
+.menu a:hover{
+  background:ff1ff1f
+  transform:translateY(-2px);
 }
 
 /* HAMBURGER */
@@ -82,14 +90,30 @@ body {
   padding: 30px;
   text-align: center;
   font-weight:bold;
-  transition:0.3s;
+  box-shadow:0 8px 25px rgba(0,0,0,.06);
+  transition:
+    transform .35s ease,
+    box-shadow .35s ease;
+  cursor:pointer;
+}
+.card h3::after{
+  content:"";
+  width:40px;
+  height:3px;
+  background:#ff3b3b;
+  display:block;
+  margin:10px auto 0;
+  border-radius:2px;
 }
 
 .card:hover{
-  transform: translateY(-6px);
-  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  transform: translateY(-10px) scale(1.02);
+  box-shadow:0 25px 50px rgba(0,0,0,0,.15);
 }
 
+.card:active{
+  transform:scale(0,97);
+}
 /* FOOTER */
 footer {
   text-align: center;
@@ -114,15 +138,14 @@ footer {
   .menu {
     position: fixed;
     top: 0;
-    right: -220px;
-    width: 200px;
+    right: -260px;
+    width: 220px;
     height: 100vh;
-    background: #222;
+    background: #111;
     flex-direction: column;
-    padding: 80px 20px;
-    gap:15px;
-    transition: 0.4s;
-    display:flex;
+    padding: 100px 25px;
+    gap:25px;
+    transition: right .4s cubic-bezier (.68,-0.55,.27,1.55);
   }
 
   .menu.show {
