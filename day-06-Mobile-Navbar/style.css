@@ -77,13 +77,15 @@ body {
     width:160px;
     padding: 15px;
     border-radius: 8px;
-  }
+}
 
   .menu.show {
     display: flex;
-  }
+}
 
   .hamburger {
     display: block;
-  }
+}
+  .footer{
+    tex-align:center;
 }
