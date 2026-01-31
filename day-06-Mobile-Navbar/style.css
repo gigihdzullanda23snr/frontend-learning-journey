@@ -3,6 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
+
 body {
   font-family: Arial;
 }
@@ -19,10 +20,12 @@ body {
   top:0;
   z-index:10;
 }
+
 .navbar.scrolled{
   box-shadow:0 5px 15px rgba(0,0,0,0.4);
 }
 
+/* MENU */
 .menu {
   display: flex;
   gap: 10px;
@@ -43,7 +46,6 @@ body {
   display: none;
   flex-direction: column;
   gap:5px;
-  justify-content: space-between;
   cursor: pointer;
 }
 
@@ -80,7 +82,9 @@ body {
   padding: 30px;
   text-align: center;
   font-weight:bold;
+  transition:0.3s;
 }
+
 .card:hover{
   transform: translateY(-6px);
   box-shadow:0 10px 25px rgba(0,0,0,0.2);
@@ -110,18 +114,19 @@ footer {
   .menu {
     position: fixed;
     top: 0;
-    right: -220px;              /* Menu disembunyikan diluar Layar */
+    right: -220px;
     width: 200px;
     height: 100vh;
     background: #222;
     flex-direction: column;
     padding: 80px 20px;
+    gap:15px;
     transition: 0.4s;
-    display:flex;                /* untuk animasi wajib flex jangan none */
+    display:flex;
   }
 
   .menu.show {
-    right: 0;                    /* Disini Slide menu masuk */
+    right: 0;
   }
 
   .hamburger {
