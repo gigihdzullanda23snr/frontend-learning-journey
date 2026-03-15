@@ -4,6 +4,13 @@ body{
   background:#0f172a;
   color:white;
   text-align:center;
+  transition:0.3s;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
 }
 
 header{
@@ -27,6 +34,7 @@ button{
 
 button:hover{
   background:#0ea5e9;
+  transform:scale(1.05);
 }
 
 .contacts{
