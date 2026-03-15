@@ -47,6 +47,11 @@ button:hover{
   font-weight:bold;
 }
 
+.contact-links a:hover{
+color:#0ea5e9;
+transform:scale(1.1);
+}
+
 .show{
   display:block;
 }
