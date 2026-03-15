@@ -47,6 +47,10 @@ button:hover{
   font-weight:bold;
 }
 
+.show{
+  display:block;
+}
+
 footer{
   margin-top:50px;
   padding:20px;
