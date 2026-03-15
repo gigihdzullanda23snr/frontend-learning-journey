@@ -1,7 +1,34 @@
+const showBtn = document.getElementById("showContact");
+const darkBtn = document.getElementById("darkMode");
+const scrollBtn = document.getElementById("scrollContact");
 
-const button = document.getElementById("btn");
-const text = document.getElementById("text");
+const contact = document.getElementById("contactSection");
 
-button.addEventListener("click", function() {
-    text.innerHTML = "Keren! Kamu baru saja menjalankan JavaScript 🚀";
+
+// SHOW CONTACT
+
+showBtn.addEventListener("click", () => {
+
+  if(contact.style.display === "none"){
+    contact.style.display = "block";
+  }else{
+    contact.style.display = "none";
+  }
+
+});
+
+
+// DARK MODE
+
+darkBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+
+
+// SCROLL TO CONTACT
+
+scrollBtn.addEventListener("click", () => {
+  contact.scrollIntoView({
+    behavior:"smooth"
+  });
 });
