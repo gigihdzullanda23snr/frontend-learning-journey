@@ -1,21 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belajar DOM</title>
+  <title>DOM Practice - Gigih</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="container">
-    <h1 id="title">About Me 👋</h1>
-    <p id="text">Selamat datang di perjalanan belajar JavaScript</p>
+  <header>
+    <h1>Halo Bang Gigih 👋</h1>
+    <p>Latihan DOM JavaScript</p>
+  </header>
 
-    <button id="btn">Klik Saya</button>
-  </div>
+  <section class="buttons">
+    <button id="showContact">Show Contact</button>
+    <button id="darkMode">Toggle Dark Mode</button>
+    <button id="scrollContact">Scroll To Contact</button>
+  </section>
+
+  <hr>
+
+  <section class="contacts" id="contactSection">
+    <h2>Contact Me</h2>
+
+    <div class="contact-links">
+      <a href="https://github.com/gigihdzullanda23snr" target="_blank">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Gigih Developer Journey</p>
+  </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
